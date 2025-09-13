@@ -1,7 +1,18 @@
-export default function App() {
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import UserLayout from "./components/Layout/UserLayout";
+
+const App = () => {
   return (
-    <div className="flex h-screen items-center justify-center bg-blue-600 text-white text-3xl font-bold">
-      Velvet Vogue online store
-    </div>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<UserLayout/>}>
+          {/* User Layout */}
+        </Route>
+        <Route>{/* Admin Layout */}</Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default App;
