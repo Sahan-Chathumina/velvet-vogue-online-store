@@ -6,10 +6,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<UserLayout />}>
-          {/* User Layout */}
-        </Route>
-        <Route>{/* Admin Layout */}</Route>
+        <Route path="/" element={<UserLayout />} />
+        {/* Later: add Admin layout here */}
+        {/* <Route path="/admin" element={<AdminLayout />} /> */}
       </Routes>
     </BrowserRouter>
   );
