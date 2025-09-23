@@ -1,17 +1,18 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Header from '../Common/Header'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const UserLayout = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <Outlet /> 
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow">
+        <Outlet />
       </main>
-      {/* Footer */}
-    </>
-  )
-}
+      <Footer />
+    </div>
+  );
+};
 
-export default UserLayout
+export default UserLayout;
