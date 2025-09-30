@@ -39,7 +39,7 @@ const ProductPage = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 pt-8">
       <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-md p-6 relative grid md:grid-cols-2 gap-8">
         {/* === Left: Product Image === */}
         <div>

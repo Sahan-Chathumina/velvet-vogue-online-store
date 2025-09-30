@@ -37,7 +37,7 @@ const Cart = () => {
   }
 
   return (
-    <Container className="py-8">
+    <Container className="pt-8 py-8">
       <h1 className="text-3xl font-bold mb-8 text-gray-800">Your Shopping Cart</h1>
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden">

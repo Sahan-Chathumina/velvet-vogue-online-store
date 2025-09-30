@@ -10,11 +10,11 @@ const Favorites = () => {
   return (
     <div className="pb-12">
       {/* Hero / Header */}
-      <div className="bg-gradient-to-r from-gray-100 to-gray-200 py-16 mb-12">
+      <div className="bg-gradient-to-r from-gray-100 to-gray-200 py-8 mb-12">
         <Container>
           <div className="flex flex-col items-center text-center">
             <FaHeart className="text-orange-600 text-5xl mb-4" />
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-3">
+            <h1 className="text-4xl md:text-4xl font-bold text-gray-800 mb-3">
               My Favorites
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl">
